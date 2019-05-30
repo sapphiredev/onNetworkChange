@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD58A93022A047BF00470388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58A92F22A047BF00470388 /* AppDelegate.swift */; };
+		AD58A93222A047BF00470388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58A93122A047BF00470388 /* ViewController.swift */; };
+		AD58A93422A047C100470388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD58A93322A047C100470388 /* Assets.xcassets */; };
+		AD58A93722A047C100470388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD58A93522A047C100470388 /* Main.storyboard */; };
+		AD58A94322A047C100470388 /* onNetworkChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58A94222A047C100470388 /* onNetworkChangeTests.swift */; };
+		AD58A94E22A047C100470388 /* onNetworkChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58A94D22A047C100470388 /* onNetworkChangeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD58A93F22A047C100470388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD58A92422A047BF00470388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD58A92B22A047BF00470388;
+			remoteInfo = onNetworkChange;
+		};
+		AD58A94A22A047C100470388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD58A92422A047BF00470388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD58A92B22A047BF00470388;
+			remoteInfo = onNetworkChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD58A92C22A047BF00470388 /* onNetworkChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onNetworkChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD58A92F22A047BF00470388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD58A93122A047BF00470388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD58A93322A047C100470388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD58A93622A047C100470388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD58A93822A047C100470388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD58A93922A047C100470388 /* onNetworkChange.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = onNetworkChange.entitlements; sourceTree = "<group>"; };
+		AD58A93E22A047C100470388 /* onNetworkChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onNetworkChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD58A94222A047C100470388 /* onNetworkChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onNetworkChangeTests.swift; sourceTree = "<group>"; };
+		AD58A94422A047C100470388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD58A94922A047C100470388 /* onNetworkChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onNetworkChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD58A94D22A047C100470388 /* onNetworkChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onNetworkChangeUITests.swift; sourceTree = "<group>"; };
+		AD58A94F22A047C100470388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD58A92922A047BF00470388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD58A93B22A047C100470388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD58A94622A047C100470388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD58A92322A047BF00470388 = {
+			isa = PBXGroup;
+			children = (
+				AD58A92E22A047BF00470388 /* onNetworkChange */,
+				AD58A94122A047C100470388 /* onNetworkChangeTests */,
+				AD58A94C22A047C100470388 /* onNetworkChangeUITests */,
+				AD58A92D22A047BF00470388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD58A92D22A047BF00470388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD58A92C22A047BF00470388 /* onNetworkChange.app */,
+				AD58A93E22A047C100470388 /* onNetworkChangeTests.xctest */,
+				AD58A94922A047C100470388 /* onNetworkChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD58A92E22A047BF00470388 /* onNetworkChange */ = {
+			isa = PBXGroup;
+			children = (
+				AD58A92F22A047BF00470388 /* AppDelegate.swift */,
+				AD58A93122A047BF00470388 /* ViewController.swift */,
+				AD58A93322A047C100470388 /* Assets.xcassets */,
+				AD58A93522A047C100470388 /* Main.storyboard */,
+				AD58A93822A047C100470388 /* Info.plist */,
+				AD58A93922A047C100470388 /* onNetworkChange.entitlements */,
+			);
+			path = onNetworkChange;
+			sourceTree = "<group>";
+		};
+		AD58A94122A047C100470388 /* onNetworkChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD58A94222A047C100470388 /* onNetworkChangeTests.swift */,
+				AD58A94422A047C100470388 /* Info.plist */,
+			);
+			path = onNetworkChangeTests;
+			sourceTree = "<group>";
+		};
+		AD58A94C22A047C100470388 /* onNetworkChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD58A94D22A047C100470388 /* onNetworkChangeUITests.swift */,
+				AD58A94F22A047C100470388 /* Info.plist */,
+			);
+			path = onNetworkChangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD58A92B22A047BF00470388 /* onNetworkChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD58A95222A047C100470388 /* Build configuration list for PBXNativeTarget "onNetworkChange" */;
+			buildPhases = (
+				AD58A92822A047BF00470388 /* Sources */,
+				AD58A92922A047BF00470388 /* Frameworks */,
+				AD58A92A22A047BF00470388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onNetworkChange;
+			productName = onNetworkChange;
+			productReference = AD58A92C22A047BF00470388 /* onNetworkChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD58A93D22A047C100470388 /* onNetworkChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD58A95522A047C100470388 /* Build configuration list for PBXNativeTarget "onNetworkChangeTests" */;
+			buildPhases = (
+				AD58A93A22A047C100470388 /* Sources */,
+				AD58A93B22A047C100470388 /* Frameworks */,
+				AD58A93C22A047C100470388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD58A94022A047C100470388 /* PBXTargetDependency */,
+			);
+			name = onNetworkChangeTests;
+			productName = onNetworkChangeTests;
+			productReference = AD58A93E22A047C100470388 /* onNetworkChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD58A94822A047C100470388 /* onNetworkChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD58A95822A047C100470388 /* Build configuration list for PBXNativeTarget "onNetworkChangeUITests" */;
+			buildPhases = (
+				AD58A94522A047C100470388 /* Sources */,
+				AD58A94622A047C100470388 /* Frameworks */,
+				AD58A94722A047C100470388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD58A94B22A047C100470388 /* PBXTargetDependency */,
+			);
+			name = onNetworkChangeUITests;
+			productName = onNetworkChangeUITests;
+			productReference = AD58A94922A047C100470388 /* onNetworkChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD58A92422A047BF00470388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = sapphire;
+				TargetAttributes = {
+					AD58A92B22A047BF00470388 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AD58A93D22A047C100470388 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AD58A92B22A047BF00470388;
+					};
+					AD58A94822A047C100470388 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AD58A92B22A047BF00470388;
+					};
+				};
+			};
+			buildConfigurationList = AD58A92722A047BF00470388 /* Build configuration list for PBXProject "onNetworkChange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD58A92322A047BF00470388;
+			productRefGroup = AD58A92D22A047BF00470388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD58A92B22A047BF00470388 /* onNetworkChange */,
+				AD58A93D22A047C100470388 /* onNetworkChangeTests */,
+				AD58A94822A047C100470388 /* onNetworkChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD58A92A22A047BF00470388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD58A93422A047C100470388 /* Assets.xcassets in Resources */,
+				AD58A93722A047C100470388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD58A93C22A047C100470388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD58A94722A047C100470388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD58A92822A047BF00470388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD58A93222A047BF00470388 /* ViewController.swift in Sources */,
+				AD58A93022A047BF00470388 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD58A93A22A047C100470388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD58A94322A047C100470388 /* onNetworkChangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD58A94522A047C100470388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD58A94E22A047C100470388 /* onNetworkChangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD58A94022A047C100470388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD58A92B22A047BF00470388 /* onNetworkChange */;
+			targetProxy = AD58A93F22A047C100470388 /* PBXContainerItemProxy */;
+		};
+		AD58A94B22A047C100470388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD58A92B22A047BF00470388 /* onNetworkChange */;
+			targetProxy = AD58A94A22A047C100470388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD58A93522A047C100470388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD58A93622A047C100470388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD58A95022A047C100470388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD58A95122A047C100470388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD58A95322A047C100470388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = onNetworkChange/onNetworkChange.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onNetworkChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.onNetworkChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD58A95422A047C100470388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = onNetworkChange/onNetworkChange.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onNetworkChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.onNetworkChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD58A95622A047C100470388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onNetworkChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.onNetworkChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onNetworkChange.app/Contents/MacOS/onNetworkChange";
+			};
+			name = Debug;
+		};
+		AD58A95722A047C100470388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onNetworkChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.onNetworkChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onNetworkChange.app/Contents/MacOS/onNetworkChange";
+			};
+			name = Release;
+		};
+		AD58A95922A047C100470388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onNetworkChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.onNetworkChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = onNetworkChange;
+			};
+			name = Debug;
+		};
+		AD58A95A22A047C100470388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onNetworkChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.onNetworkChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = onNetworkChange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD58A92722A047BF00470388 /* Build configuration list for PBXProject "onNetworkChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD58A95022A047C100470388 /* Debug */,
+				AD58A95122A047C100470388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD58A95222A047C100470388 /* Build configuration list for PBXNativeTarget "onNetworkChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD58A95322A047C100470388 /* Debug */,
+				AD58A95422A047C100470388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD58A95522A047C100470388 /* Build configuration list for PBXNativeTarget "onNetworkChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD58A95622A047C100470388 /* Debug */,
+				AD58A95722A047C100470388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD58A95822A047C100470388 /* Build configuration list for PBXNativeTarget "onNetworkChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD58A95922A047C100470388 /* Debug */,
+				AD58A95A22A047C100470388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD58A92422A047BF00470388 /* Project object */;
+}
