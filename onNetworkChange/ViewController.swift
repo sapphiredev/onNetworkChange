@@ -7,11 +7,20 @@
 //
 
 import Cocoa
+import CoreWLAN
 
 class ViewController: NSViewController {
-
+    @IBOutlet weak var ssidLabel: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        guard let interface = CWWiFiClient.shared().interface() else {
+            ssidLabel.stringValue = "1111"
+            return;
+        }
+        
+        ssidLabel.stringValue = interface.ssid() ?? "1112";
 
         // Do any additional setup after loading the view.
     }
